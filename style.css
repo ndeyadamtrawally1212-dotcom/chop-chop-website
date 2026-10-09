@@ -747,27 +747,6 @@ ul, ol {
   margin-top: 2rem;
 }
 
-.app-phone-wrap {
-  margin-top: 2.5rem;
-}
-
-.phone-dark {
-  background: #0c0a09;
-  border-color: #292524;
-}
-
-.phone-track {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0.75rem;
-  padding: 0.7rem;
-  background: #fff;
-  border-radius: 0.6rem;
-  color: var(--color-heading);
-  font-size: 0.75rem;
-}
-
 /* Footer */
 .site-footer {
   background: var(--color-secondary);
@@ -1151,26 +1130,6 @@ body.modal-open {
   .areas-layout {
     grid-template-columns: 1.2fr 1fr;
     align-items: start;
-  }
-
-  .app-grid {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    gap: 3rem;
-    text-align: left;
-  }
-
-  .app-band .lede {
-    margin-left: 0;
-  }
-
-  .app-actions {
-    justify-content: flex-start;
-  }
-
-  .app-phone-wrap {
-    margin-top: 0;
   }
 }
 

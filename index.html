@@ -151,13 +151,97 @@
     </section>
 
     <section class="section section-cream" id="popular">
-      <div class="container">
-        <h2>Popular this week</h2>
-        <p class="lede">What the Kombo ordered most in the last seven days.</p>
-        <!-- Cards are drawn from the PRODUCTS array in js/app.js -->
-        <ul class="dish-grid" id="dish-grid"></ul>
-      </div>
-    </section>
+        <div class="container">
+          <h2>Popular this week</h2>
+          <p class="lede">What the Kombo ordered most in the last seven days.</p>
+          <ul class="dish-grid" id="dish-grid">
+            <li class="dish-card">
+              <img src="assets/dish-1.svg" alt="">
+              <div class="dish-top">
+                <div>
+                  <h3>Benachin</h3>
+                  <p class="kitchen">Mama Binta’s Kitchen · Westfield</p>
+                </div>
+                <span class="badge">Popular</span>
+              </div>
+              <div class="dish-row">
+                <p class="price">D250</p>
+                <button class="add-btn" type="button" data-add="benachin">Add</button>
+              </div>
+            </li>
+            <li class="dish-card">
+              <img src="assets/dish-2.svg" alt="">
+              <div class="dish-top">
+                <div>
+                  <h3>Domoda</h3>
+                  <p class="kitchen">Katchik Corner · Kololi</p>
+                </div>
+                <span class="badge">Popular</span>
+              </div>
+              <div class="dish-row">
+                <p class="price">D200</p>
+                <button class="add-btn" type="button" data-add="domoda">Add</button>
+              </div>
+            </li>
+            <li class="dish-card">
+              <img src="assets/dish-3.svg" alt="">
+              <div class="dish-top">
+                <div>
+                  <h3>Chicken yassa</h3>
+                  <p class="kitchen">Senegambia Grill · Bakau</p>
+                </div>
+                <span class="badge">Spicy</span>
+              </div>
+              <div class="dish-row">
+                <p class="price">D350</p>
+                <button class="add-btn" type="button" data-add="yassa">Add</button>
+              </div>
+            </li>
+            <li class="dish-card">
+              <img src="assets/dish-4.svg" alt="">
+              <div class="dish-top">
+                <div>
+                  <h3>Afra</h3>
+                  <p class="kitchen">Night Market · Bakau</p>
+                </div>
+                <span class="badge">Spicy</span>
+              </div>
+              <div class="dish-row">
+                <p class="price">D400</p>
+                <button class="add-btn" type="button" data-add="afra">Add</button>
+              </div>
+            </li>
+            <li class="dish-card">
+              <img src="assets/dish-5.svg" alt="">
+              <div class="dish-top">
+                <div>
+                  <h3>Superkanja</h3>
+                  <p class="kitchen">Auntie Haddy’s · Serrekunda</p>
+                </div>
+                <span class="badge badge-veg">Vegetarian</span>
+              </div>
+              <div class="dish-row">
+                <p class="price">D180</p>
+                <button class="add-btn" type="button" data-add="superkanja">Add</button>
+              </div>
+            </li>
+            <li class="dish-card">
+              <img src="assets/dish-6.svg" alt="">
+              <div class="dish-top">
+                <div>
+                  <h3>Tapalapa and egg</h3>
+                  <p class="kitchen">Morning Street · Bakau</p>
+                </div>
+                <span class="badge">Breakfast</span>
+              </div>
+              <div class="dish-row">
+                <p class="price">D75</p>
+                <button class="add-btn" type="button" data-add="tapalapa">Add</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
 
     <section class="section" id="areas">
       <div class="container">
@@ -193,36 +277,22 @@
     </section>
 
     <section class="app-band" id="get-the-app">
-      <div class="container app-grid">
-        <div class="app-copy">
-          <h2>Get Chop Chop on your phone</h2>
-          <p class="lede">Free to install. Your first delivery is on us, anywhere from Bakau to Brusubi.</p>
-          <div class="app-actions">
-            <button class="btn btn-primary" type="button" data-download="iphone">Download for iPhone</button>
-            <button class="btn btn-ghost" type="button" data-download="android">Download for Android</button>
-          </div>
+    <div class="container app-grid">
+        <h2>Get Chop Chop on your phone</h2>
+        <p class="lede">Free to install. Your first delivery is on us, anywhere from Bakau to Brusubi.</p>
+        <div class="app-actions">
+          <a class="btn btn-primary" href="#get-the-app" data-download="iphone">Download for iPhone</a>
+          <a class="btn btn-ghost" href="#get-the-app" data-download="android">Download for Android</a>
         </div>
-        <div class="app-phone-wrap" aria-hidden="true">
-          <div class="phone phone-dark">
-            <div class="phone-screen">
-              <div class="phone-status">
-                <span>9:41</span>
-                <span class="phone-pills"></span>
-              </div>
-              <p class="phone-brand">Your order</p>
-              <article class="phone-card">
-                <img src="assets/yassa.svg" alt="">
-                <div>
-                  <span class="phone-line phone-line-lg"></span>
-                  <span class="phone-line"></span>
-                </div>
-              </article>
-              <div class="phone-track">
-                <span>Rider is 8 min away</span>
-                <strong>D350</strong>
-              </div>
-            </div>
-          </div>
+     </div>
+              
+    <section class="app-band" id="get-the-app">
+      <div class="container app-grid">
+        <h2>Get Chop Chop on your phone</h2>
+        <p class="lede">Free to install. Your first delivery is on us, anywhere from Bakau to Brusubi.</p>
+        <div class="app-actions">
+          <a class="btn btn-primary" href="#get-the-app" data-download="iphone">Download for iPhone</a>
+          <a class="btn btn-ghost" href="#get-the-app" data-download="android">Download for Android</a>
         </div>
       </div>
     </section>
